@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+body {
+	-webkit-text-size-adjust: 100%;
+}
+
+.container {
+	width: 88%;
+	padding: 0 50px;
+	margin: 0 auto;
+	color: #484848;
+}
+
+.container i {
+	vertical-align: middle;
+}
+
+header {
+	padding: 30px 0;
+}
+
+.container a {
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.mainphoto {
+	width: 100%;
+	position: relative;
+	border-radius: 15px;
+}
+
+.group1 {
+	width: 800px;
+	height: 320px;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	background-color: #EEEEEE;
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 0 30px #EEEEEE;
+}
+
+.cal {
+	float: left;
+	width: 400px;
+}
+
+.entry {
+	float: right;
+	width: 400px;
+}
+
+input {
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+select {
+	height: 50px;
+	width: 100%;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+.entry a {
+	width: 100%;
+	padding: 10px 20px;
+	margin: 30px 0;
+	background-color: #FF3399;
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.container2 {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.group2 {
+	padding-top: 250px;
+	display: flex;
+}
+
+.reason {
+	flex: 50%;
+	padding: 0 3%
+}
+
+.reason div {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.title {
+	margin-top: 130px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.step2 {
+	display: flex;
+}
+
+.reason2 {
+	padding-right: 3%;
+	text-align: left;
+	flex: 100%;
+}
+
+.reason2 i {
+	padding-bottom: 10px;
+}
+
+.reason2 div {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.group3 {
+	width: 400px;
+	margin-top: 150px;
+	float: left;
+}
+
+.group3 i {
+	padding-bottom: 15px;
+}
+
+.group3 div {
+	font-size: 30px
+}
+
+.group3 a {
+	border: 2px solid black;
+	padding: 10px 20px;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.beauty {
+	padding: 150px 0 0 100px;
+}
+
+.group4 {
+	display: flex;
+}
+
+.group4 div {
+	flex: 100%;
+	line-height: 1.8;
+	padding-top: 20px
+}
+
+.group4 ol {
+	flex: 100%;
+	padding-left: 100px;
+	line-height: 3;
+	list-style: none;
+}
+
+.group4 i {
+	vertical-align: middle;
+}
+
+.bizin {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.group5 {
+	width: 400px;
+	margin-top: 150px;
+	float: right;
+}
+
+.group5 i {
+	padding-bottom: 15px;
+}
+
+.group5 div {
+	font-size: 30px
+}
+
+.group5 a {
+	border: 2px solid black;
+	padding: 10px 20px;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.smile {
+	width: 400px;
+	padding: 150px 0 0 100px;
+}
+
+.group6 {
+	display: flex;
+	padding-bottom: 100px
+}
+
+.ques {
+	flex: 100%;
+}
+
+.ques a {
+	width: 90%;
+	display: block;
+	padding: 30px 20px;
+	border-bottom: 1px solid #DDDDDD ;
+	text-decoration: none;
+}
+
+.group7 {
+	display: flex;
+}
+
+.spec {
+	flex: 100%;
+}
+
+.group7 img {
+	object-position: 50% 25%;
+	object-fit: cover;
+	width: 300px;
+	height: 200px;
+}
+
+.group7 h4 {
+	line-height: 0.1;
+}
+
+.group7 p {
+	font-size: 13px;
+	line-height: 0.1;
+}
+
+.group8 {
+	margin: 100px 0;
+	position: relative;
+}
+
+.group8 img {
+	width: 100%;
+	object-fit: cover;
+	width: 100%;
+	height: 450px;
+}
+
+.benefit {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.benefit h1 {
+	color: white;
+	font-size: 60px;
+}
+
+.benefit a {
+	padding: 12px 22px;
+	background-color: white;
+	text-decoration: none;
+	font-size: 15px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #EEEEEE;
+	padding-bottom: 50px;
+}
+
+.menu {
+	padding: 50px 0;
+	font-size: 13px;
+	flex: 25%;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.menu p {
+	font-weight: bold;
+}
+
+.menu a {
+	display: block;
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+.flex {
+	display: flex;
+}
+
+.last1 {
+	line-height: 5px;
+}
+
+.last {
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+}
+
+.last2 {
+	text-align: right;
+}
+
+.last2 a {
+	font-size: 13px;
+	font-weight: bold;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+
+.yen {
+	text-decoration: none;
+}
+
+.last2 i {
+	padding: 0 10px; 
+}
